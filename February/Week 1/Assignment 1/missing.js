@@ -14,8 +14,8 @@ let missing_element = function findFirstMissing(array, start, end)
          return findFirstMissing(array, start, mid);
 }
  
-let arr = [0, 1, 2, 6, 9, 11, 15];
-let n = arr.length;
+  let arr = [0, 1, 2, 6, 9, 11, 15];
+  let n = arr.length;
 
 document.write("smallest Missing element is " +
 missing_element(arr, 0, n - 1));
